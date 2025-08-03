@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachin Bharti - Frontend Developer & IoT Enthusiast</title>
+    <meta name="description" content="Portfolio of Sachin Bharti - Electronics & Communication Engineering Student specializing in Frontend Development and IoT">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Feather Icons for UI elements -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__brand">
+                    <a href="#home" class="nav__logo">Sachin Bharti</a>
+                </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                        <i data-feather="sun" class="theme-icon theme-icon--light"></i>
+                        <i data-feather="moon" class="theme-icon theme-icon--dark"></i>
+                    </button>
+                    <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">
+                            Hi, I'm <span class="hero__name">Sachin Bharti</span>
+                        </h1>
+                        <p class="hero__subtitle">Electronics & Communication Engineering Student</p>
+                        <p class="hero__description">Frontend Developer & IoT Enthusiast</p>
+                        <p class="hero__tagline">
+                            Passionate about creating innovative solutions through technology, 
+                            combining hardware expertise with modern web development.
+                        </p>
+                        <div class="hero__actions">
+                            <a href="#projects" class="btn btn--primary">View Projects</a>
+                            <a href="#contact" class="btn btn--outline">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="hero__image">
+                        <div class="hero__avatar">
+                            <div class="avatar-placeholder">
+                                <i data-feather="user"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p class="about__description">
+                            I'm a passionate Electronics & Communication Engineering student at Haldia Institute of Technology, 
+                            graduating in 2026 with a strong academic record (CGPA: 8.18/10). My journey combines the precision 
+                            of hardware engineering with the creativity of frontend development.
+                        </p>
+                        <p class="about__description">
+                            With hands-on experience in microcontrollers, IoT development, and modern web technologies, 
+                            I bridge the gap between embedded systems and user-friendly interfaces. I enjoy solving complex 
+                            problems and creating innovative solutions that make technology accessible to everyone.
+                        </p>
+                        <div class="about__details">
+                            <div class="detail__item">
+                                <i data-feather="map-pin"></i>
+                                <span>Gaya, Bihar, India</span>
+                            </div>
+                            <div class="detail__item">
+                                <i data-feather="graduation-cap"></i>
+                                <span>B.Tech ECE (2022-2026)</span>
+                            </div>
+                            <div class="detail__item">
+                                <i data-feather="award"></i>
+                                <span>CGPA: 8.18/10</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__interests">
+                        <h3 class="interests__title">Personal Interests</h3>
+                        <ul class="interests__list">
+                            <li class="interest__item">
+                                <i data-feather="video"></i>
+                                <span>Wildlife Documentaries</span>
+                            </li>
+                            <li class="interest__item">
+                                <i data-feather="globe"></i>
+                                <span>Space Enthusiast</span>
+                            </li>
+                            <li class="interest__item">
+                                <i data-feather="activity"></i>
+                                <span>Cricket & Football</span>
+                            </li>
+                            <li class="interest__item">
+                                <i data-feather="cpu"></i>
+                                <span>Strategic Games & Chess</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section__title">Technical Skills</h2>
+                <div class="skills__content">
+                    <div class="skill__category">
+                        <h3 class="skill__category-title">Programming Languages</h3>
+                        <div class="skill__items">
+                            <div class="skill__item">
+                                <i data-feather="coffee"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="code"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="terminal"></i>
+                                <span>C</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="code"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="file-text"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="layers"></i>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill__category">
+                        <h3 class="skill__category-title">Tools & Technologies</h3>
+                        <div class="skill__items">
+                            <div class="skill__item">
+                                <i data-feather="bar-chart-2"></i>
+                                <span>MATLAB</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="settings"></i>
+                                <span>Eagle PCB</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="cpu"></i>
+                                <span>Arduino IDE</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="hard-drive"></i>
+                                <span>Raspberry Pi</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill__category">
+                        <h3 class="skill__category-title">Areas of Expertise</h3>
+                        <div class="skill__items">
+                            <div class="skill__item">
+                                <i data-feather="zap"></i>
+                                <span>Digital Electronics</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="radio"></i>
+                                <span>Analog Electronics</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="chip"></i>
+                                <span>Embedded Systems</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="circuit-board"></i>
+                                <span>Circuit Design</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="wifi"></i>
+                                <span>IoT Development</span>
+                            </div>
+                            <div class="skill__item">
+                                <i data-feather="database"></i>
+                                <span>Data Structures</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section__title">Featured Projects</h2>
+                <div class="projects__grid">
+                    <div class="project__card">
+                        <div class="project__header">
+                            <div class="project__icon">
+                                <i data-feather="wifi"></i>
+                            </div>
+                            <h3 class="project__title">IoT Based Intelligence Gas Leakage Detector</h3>
+                        </div>
+                        <div class="project__content">
+                            <p class="project__description">
+                                Smart system designed to detect gas leaks using MQ series sensors. Features real-time monitoring, 
+                                remote notifications via IoT platform (Blynk), local alerts through buzzer/LEDs, and automatic 
+                                shutdown capabilities for enhanced safety.
+                            </p>
+                            <div class="project__details">
+                                <div class="project__detail">
+                                    <i data-feather="calendar"></i>
+                                    <span>Sep 10 - Sep 20, 2024</span>
+                                </div>
+                                <div class="project__detail">
+                                    <i data-feather="users"></i>
+                                    <span>Team of 10 members</span>
+                                </div>
+                                <div class="project__detail">
+                                    <i data-feather="user"></i>
+                                    <span>Mentor: Dr Avishankar Roy</span>
+                                </div>
+                            </div>
+                            <div class="project__tech">
+                                <span class="tech__tag">Arduino</span>
+                                <span class="tech__tag">Sensor Integration</span>
+                                <span class="tech__tag">Microcontroller</span>
+                                <span class="tech__tag">GSM Module</span>
+                                <span class="tech__tag">IoT</span>
+                            </div>
+                        </div>
+                        <div class="project__footer">
+                            <a href="https://github.com/Sachin20-04/Arduino-IDE-CODE" target="_blank" class="btn btn--primary">
+                                <i data-feather="github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project__card">
+                        <div class="project__header">
+                            <div class="project__icon">
+                                <i data-feather="bar-chart"></i>
+                            </div>
+                            <h3 class="project__title">Red Wine Quality Prediction</h3>
+                        </div>
+                        <div class="project__content">
+                            <p class="project__description">
+                                Developed a predictive model to classify red wine quality based on physicochemical properties. 
+                                Implemented data preprocessing, feature engineering, and achieved high accuracy using Logistic 
+                                Regression with comprehensive evaluation metrics.
+                            </p>
+                            <div class="project__details">
+                                <div class="project__detail">
+                                    <i data-feather="users"></i>
+                                    <span>Team of 5 members</span>
+                                </div>
+                            </div>
+                            <div class="project__tech">
+                                <span class="tech__tag">Python</span>
+                                <span class="tech__tag">Pandas</span>
+                                <span class="tech__tag">NumPy</span>
+                                <span class="tech__tag">Scikit-Learn</span>
+                                <span class="tech__tag">Matplotlib</span>
+                                <span class="tech__tag">Logistic Regression</span>
+                            </div>
+                        </div>
+                        <div class="project__footer">
+                            <a href="https://github.com/Sachin20-04/red-wine-quality-prediction" target="_blank" class="btn btn--primary">
+                                <i data-feather="github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements" id="achievements">
+            <div class="container">
+                <h2 class="section__title">Achievements & Experience</h2>
+                <div class="achievements__grid">
+                     
+                    
+                    <div class="achievement__item">
+                        <div class="achievement__icon">
+                            <i data-feather="award"></i>
+                        </div>
+                        <h3 class="achievement__title">IEEE Competition</h3>
+                        <p class="achievement__description">Participated in IEEE Model Design Competition on IoT Applications</p>
+                    </div>
+                     
+                </div>
+            </div>
+        </section>
+        <section class="resume" id="resume">
+            <div class="container">
+              <h2 class="section__title">My Resume</h2>
+              <p class="resume__text">
+                You can download my updated resume to know more about my skills, education, projects, and certifications.
+              </p>
+              <a href="Sachin-Bharti-Resume.pdf" download class="btn btn--resume">
+                <i data-feather="download-cloud"></i> Download Resume (PDF)
+              </a>
+            </div>
+          </section>
+          
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Let's Connect</h3>
+                        <p class="contact__description">
+                            I'm always open to discussing new opportunities, innovative projects, or just having a chat about technology. 
+                            Feel free to reach out!
+                        </p>
+                        <div class="contact__details">
+                            <div class="contact__detail">
+                                <i data-feather="mail"></i>
+                                <a href="mailto:bhartisachin743@gmail.com">bhartisachin743@gmail.com</a>
+                            </div>
+                            <div class="contact__detail">
+                                <i data-feather="phone"></i>
+                                <a href="tel:+917484944100">+91-7484944100</a>
+                            </div>
+                            <div class="contact__detail">
+                                <i data-feather="map-pin"></i>
+                                <span>Gaya, Bihar, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact__form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <i data-feather="send"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__text">
+                    <p>&copy; 2025 Sachin Bharti. Built with passion and dedication.</p>
+                </div>
+                <div class="footer__links">
+                    <a href="https://github.com/Sachin20-04" target="_blank" class="footer__link" aria-label="GitHub">
+                        <i data-feather="github"></i>
+                    </a>
+                    <a href="#" target="_blank" class="footer__link" aria-label="LinkedIn">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
